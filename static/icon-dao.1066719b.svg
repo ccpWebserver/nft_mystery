@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g>
+            <polygon stroke="#46C323" stroke-width="1.46666667" opacity="0.735547747" points="9.71666667 7.51666667 8.06666667 14.6666667 15.0333333 13.2"></polygon>
+            <circle stroke="#000000" stroke-width="1.46666667" opacity="0.735547747" cx="11" cy="11" r="10.2666667"></circle>
+            <circle fill="#46C323" cx="9.71666667" cy="7.51666667" r="2.75"></circle>
+            <circle fill="#46C323" cx="8.06666667" cy="14.6666667" r="2.2"></circle>
+            <circle fill="#46C323" cx="15.0333333" cy="13.2" r="1.83333333"></circle>
+        </g>
+    </g>
+</svg>
