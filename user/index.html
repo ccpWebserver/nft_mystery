@@ -748,14 +748,26 @@
       })();
 
       window.dataLayer = window.dataLayer || [];
+
       function gtag() {
         dataLayer.push(arguments);
       }
+
       gtag("js", new Date());
 
       gtag("config", "G-G4WS4DLGH6");
+
+      let flutter_inappwebview = window.flutter_inappwebview;
+      if (flutter_inappwebview) {
+        flutter_inappwebview
+          .callHandler("getSafeDistance")
+          .then(function (result) {
+            var root = document.getElementById("root");
+            root.style.paddingTop = `${result}px`;
+          });
+      }
     </script>
-    <script src="./umi.a38e5495.js"></script>
+    <script src="./umi.b4ac10e2.js"></script>
   </body>
 </html>
 <!-- Global site tag (gtag.js) - Google Analytics -->
